@@ -1,2 +1,32 @@
+# IDE
 .idea/
+*.iml
+.vscode/
+
+# Python cache
 __pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtualenv
+.venv/
+.env
+.env.*
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.coverage
