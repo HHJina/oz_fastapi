@@ -1,4 +1,4 @@
-from typing import Annotated # 부가설명을 추가하기 위해서
+from typing import Annotated  # 부가설명을 추가하기 위해서
 
 from pydantic import BaseModel, Field
 
