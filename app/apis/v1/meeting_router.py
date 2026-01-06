@@ -67,6 +67,7 @@ async def api_get_meeting_mysql(meeting_url_code: str) -> GetMeetingResponse:
         location="test",
     )
 
+
 # @edgedb_router.patch("/{meeting_url_code}/date_range", description="meeting 의 날짜 range 를 설정합니다.")
 # async def api_update_meeting_date_range_edgedb(
 #     meeting_url_code: str, update_meeting_date_range_request: UpdateMeetingDateRangeRequest
@@ -78,6 +79,7 @@ async def api_get_meeting_mysql(meeting_url_code: str) -> GetMeetingResponse:
 #         title="test",
 #         location="test",
 #     )
+
 
 @mysql_router.patch("/{meeting_url_code}/date_range", description="meeting 의 날짜 range 를 설정합니다.")
 async def api_update_meeting_date_range_mysql(
